@@ -68,5 +68,4 @@ Cópialos desde tu sistema local a `P:\proyecto_1\datos\datos_crudos\` (o la rut
 ##  Clonar el repositorio
 
 ```bash
-git clone https://github.com/fideitosrcr/proyecto-uno-ciencia-de-datos.git
-cd proyecto-uno-ciencia-de-datos
+(https://github.com/David-Fernando-Diaz/Proyecto-Tareas-Ingenier-a-de-datos.git)
