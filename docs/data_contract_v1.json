@@ -1,0 +1,34 @@
+{
+  "dataset": "nasa_exoplanets_pscomppars",
+  "version": "1.0.0",
+  "grain": "1 fila ~ 1 planeta",
+  "primary_key_candidate": [
+    "pl_name"
+  ],
+  "required_columns": [
+    "pl_name",
+    "hostname"
+  ],
+  "quality_checks": [
+    {
+      "name": "pk_unique_pl_name",
+      "type": "uniqueness",
+      "threshold": 0
+    },
+    {
+      "name": "nulls_pl_name",
+      "type": "completeness",
+      "threshold": 0
+    },
+    {
+      "name": "nulls_hostname",
+      "type": "completeness",
+      "threshold": 0
+    },
+    {
+      "name": "disc_year_range",
+      "type": "validity",
+      "threshold": 0
+    }
+  ]
+}
