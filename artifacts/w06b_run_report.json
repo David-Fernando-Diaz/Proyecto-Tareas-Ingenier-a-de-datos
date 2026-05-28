@@ -1,0 +1,33 @@
+{
+  "stages": [
+    {
+      "mode": "bronze_load",
+      "seconds": 0.32
+    },
+    {
+      "mode": "silver_build",
+      "seconds": 1.45
+    },
+    {
+      "mode": "dim_host_sk",
+      "seconds": 0.21
+    },
+    {
+      "mode": "fact_planet_sk",
+      "seconds": 0.58
+    },
+    {
+      "mode": "gold_by_method",
+      "seconds": 0.09
+    },
+    {
+      "mode": "gold_by_host",
+      "seconds": 0.12
+    },
+    {
+      "mode": "exports",
+      "seconds": 0.07
+    }
+  ],
+  "total_seconds": 2.84
+}

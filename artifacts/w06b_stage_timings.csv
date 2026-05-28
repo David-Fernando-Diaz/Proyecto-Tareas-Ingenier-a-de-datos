@@ -1,0 +1,8 @@
+mode,seconds
+bronze_load,0.32
+silver_build,1.45
+dim_host_sk,0.21
+fact_planet_sk,0.58
+gold_by_method,0.09
+gold_by_host,0.12
+exports,0.07

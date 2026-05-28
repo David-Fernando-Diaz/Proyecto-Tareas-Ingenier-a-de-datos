@@ -1,0 +1,5 @@
+ts_utc,check_name,status,metric_value,details
+2026-05-28 21:46:58.142515,uniqueness_pl_name,PASS,0.0,duplicates
+2026-05-28 21:46:58.142515,nulls_hostname,PASS,0.0,null hostname
+2026-05-28 21:46:58.142515,valid_disc_year,PASS,0.0,years out of range
+2026-05-28 21:46:58.142515,positive_pl_rade,PASS,0.0,non-positive radii

@@ -1,0 +1,4 @@
+run_ts,check_name,metric_value
+2026-05-28T18:39:26.521132+00:00,nulls_pl_name,0
+2026-05-28T18:39:26.521132+00:00,nulls_hostname,0
+2026-05-28T18:39:26.521132+00:00,out_of_range_disc_year,0
